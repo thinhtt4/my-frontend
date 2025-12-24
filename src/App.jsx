@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState("")
 
   useEffect(() => {
-    fetch("https://localhost:7159/api/hello")
+    fetch("https://my-backend-ppre.onrender.com/api/hello")
       .then(res => res.json())
       .then(data => setMessage(data.message))
   }, [])
