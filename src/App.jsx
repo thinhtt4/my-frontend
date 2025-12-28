@@ -5,8 +5,8 @@ function App() {
   const [todos, setTodos] = useState([])
   const [title, setTitle] = useState("")
 
-  // const API = "https://my-backend-ppne.onrender.com/api/todos"
-  const API = "https://localhost:7159/api/todos"
+  const API = "https://my-backend-ppne.onrender.com/api/todos"
+  // const API = "https://localhost:7159/api/todos"
   const [isRegistering, setIsRegistering] = useState(false);
   useEffect(() => {
     fetch(API)
