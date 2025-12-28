@@ -6,7 +6,7 @@ function Register() {
   const [step, setStep] = useState(1);
   
   // URL Backend của bạn trên Render
-  const API_URL = "https://my-backend-ppnc.onrender.com/api/auth"; 
+  const API_URL = "https://my-backend-ppne.onrender.com/api/auth"; 
   // const API_URL = "https://localhost:7159/api/auth"; 
 
 
